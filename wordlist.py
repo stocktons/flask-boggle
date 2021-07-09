@@ -32,6 +32,8 @@ class WordList:
             >>> wl = WordList("test_dictionary.txt")
             >>> wl.check_word('CAT')
             True
+            >>> wl.check_word('BIRD')
+            False
         """
         return word in self.words
 
