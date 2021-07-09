@@ -19,6 +19,18 @@ async function start() {
   displayBoard(board);
 }
 
+
+/** onWordSubmit */
+
+// async function onWordSubmit() {
+//   let response = await axios.post("/api/score-word");
+//   gameId = response.data.gameId;
+//   let board = response.data.board;
+//   let data = {gameId}
+
+//   displayBoard(board);
+// }
+
 /** Display board */
 
 function displayBoard(board) {
