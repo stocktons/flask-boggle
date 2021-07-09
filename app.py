@@ -22,7 +22,7 @@ def new_game():
     """Start a new game and return JSON: {game_id, board}."""
 
     # get a unique id for the board we're creating
-    game_id = str(uuid4())
+    game_id = str(uuid4()) # uuid is the python universal unique identifier library
     game = BoggleGame()
     games[game_id] = game
 
